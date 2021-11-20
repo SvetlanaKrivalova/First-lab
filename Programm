@@ -12,7 +12,7 @@ int main() {
     double p;
     int    n  = 100;
 
-    while (n < 50) {
+    while (n < 40) {
         p = p0 * pow(V / (V + V0), n);
         cout << "n = " << n << "     " << "p = " << p << endl;
         n = n + 10;
