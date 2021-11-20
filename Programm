@@ -10,7 +10,7 @@ int main() {
     int    V  = 15;
     int    p0 = 860;
     double p;
-    int    n  = 10;
+    int    n  = 100;
 
     while (n < 50) {
         p = p0 * pow(V / (V + V0), n);
